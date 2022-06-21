@@ -30,10 +30,11 @@ h1,label,h5, .my-3, .display{
 }
 
 .card{
-    box-shadow: 5px 5px 10px grey;
+    box-shadow: 10px 1px 5px grey;
+    border: 0.1px solid rgb(190, 183, 183);
     width: 400px;
     height: 500px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     margin-bottom: 1.3rem;
 }
 
