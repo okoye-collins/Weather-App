@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Ninja Weather</h1>
+        <form class="change-location">
+            <label for="city">Enter a location for weather information</label><br>
+            <input type="text" name="city" class="form-control" placeholder="Example: Awka">
+        </form>
+
+        <div class="card hide-card">
+                <img src="https://via.placeholder.com/400x300" class="time">
+            <div class="icon">
+                <!-- icon -->
+                <img src="">
+            </div>
+            <div class="details">
+                <h5>City name</h5>
+                <div class="my-3">Weather Condition</div>
+                <div class="display">
+                    <span>temp</span>
+                    <span>&deg;C</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/forecast.js"></script>
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
