@@ -24,12 +24,7 @@ const updateUi = (data) =>{
 
     // update Image and Icon
 
-    let timeScr = null;
-    if(weather.IsDayTime){
-        timeScr = './img/day.jpg';
-    }else{
-        timeScr = './img/night.jpeg';
-    }
+    let timeScr = weather.IsDayTime ? './img/day.jpg' : './img/night.jpeg'
 
     time.setAttribute('src', timeScr)
 
